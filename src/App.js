@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import DeveloperList from "./components/atoms/developers";
 
 function App() {
+  // Example using fetch
+  fetch("http://localhost:3001/api/data")
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch((error) => console.error("Error:", error));
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>
-          Hi there, Welcome to the TeamGenius Music Platform.
-        </h3>
-        <p>Powered by TBD(Web5).</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Just running a simple code to test the backend and frontend connection.</h1>
+      <DeveloperList />
     </div>
   );
 }
