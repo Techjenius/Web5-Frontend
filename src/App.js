@@ -1,24 +1,12 @@
-import logo from './logo.svg';
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import './App.css';
+import Home from './pages/home/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>
-          Hi there, Welcome to the TeamGenius Music Platform.
-        </h3>
-        <p>Powered by TBD(Web5).</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home/>
     </div>
   );
 }

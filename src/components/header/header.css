@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.navlinks{
+    display: flex;
+}
+.navlinks li{
+    padding-right: 40px;
+    color: #ffff;
+}
+.header button{
+    padding: 0 20px;
+}
