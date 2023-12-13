@@ -1,0 +1,28 @@
+.newsletter{
+    gap: 20px
+}
+.newsletter-content > input::placeholder{
+    color: white;
+}
+.newsletter-content > input{
+    border:none;
+    background: #e6c30a;
+    border: none;
+    outline: none;
+}
+.newsletter-content > input:focus{
+    color: #ffff;
+}
+.newsletter-content{
+    border-radius: 6.232px;
+    border: none;
+    color: white;
+    background: #E6C30A
+    
+}
+.width-stroke{
+    width: 80px;
+    height: 2px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}

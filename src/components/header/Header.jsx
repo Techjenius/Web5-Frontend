@@ -10,7 +10,10 @@ const Header = () => {
             <li>About us</li>
             <li>Our Service</li>
         </ul>
-        <button className="linear-btn">Get Started</button>
+        <div>
+
+        <button className="linear-btn py-2">Get Started</button>
+        </div>
     </div>
   )
 }

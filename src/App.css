@@ -7,3 +7,48 @@
     border-radius: 8px;
     color: #ffff;
 }
+.color-y{
+    color: #e6c30a
+}
+.color-by{
+    background-color: #E6C30A
+}
+
+/* login and signup style */
+.auth-container{
+    background-color: #C4C4C4;
+    padding: 71px 80px 70px 80px;
+    gap: 50px;
+}
+.auth-img{
+    border-radius: 32px;
+    background: #E6C30A;
+    flex-direction: column;
+}
+.auth-img p{
+    max-width: 400px;
+}
+.auth-img h5{
+    font-family: 'Russo One', sans-serif;
+}
+.auth-form{
+    border-radius: 32px;
+    flex-direction: column;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.btn-auth-container{
+    width: 400px;
+}
+.btn-auth{
+    border-radius: 12px;
+    border: 1px solid #000;
+    padding: 7px 14px;
+    gap: 10px;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;
+}
+.btn-auth img{
+    width: 24px;
+    height: 24px;
+}
