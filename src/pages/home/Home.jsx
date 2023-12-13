@@ -73,7 +73,7 @@ const Home = () => {
       </div>
       <div className="home-banner-2 px-5 row align-items-center ">
         <div className="col text-center">
-          <img src={istock} alt="istock" height={200} />
+          <img src={istock} alt="istock" height={200} className="img-fluid" />
           <h3 className="mt-5">Deep House</h3>
           <h5 className="mt-2">Tecno Bar</h5>
         </div>

@@ -8,7 +8,7 @@ const Signup = () => {
   return (
     <div className="auth-container row ">
       <div className="col auth-img d-flex justify-content-center align-items-center text-center">
-        <img src={nftimg} alt="nftimg" width={400} />
+        <img src={nftimg} alt="nftimg" className="img-fluid" />
         <h5 className="text-white mt-3">
           Begin your decentralized Journey with Musing
         </h5>
@@ -17,8 +17,8 @@ const Signup = () => {
           a seamless play-time with favourites.
         </p>
       </div>
-      <div className="col auth-form-container d-flex bg-white  align-items-center">
-        <h5 className="color-y my-3">Sign up to Enjoy Unlimited Playlist</h5>
+      <div className="col auth-form-container d-flex bg-white ">
+        <h5 className="color-y my-3 text-center">Sign up to Enjoy Unlimited Playlist</h5>
         <form className="auth-form my-3 gap-3">
           <p>
             Already have an account?

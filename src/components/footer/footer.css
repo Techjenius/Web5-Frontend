@@ -26,3 +26,10 @@
     border-radius: 2px;
     margin-bottom: 20px;
 }
+/* media queries */
+@media (max-width: 768px){
+    .footer, .company, .newsletter,.footer-links{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

@@ -177,7 +177,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-      <div className="musing-audio-bar d-flex justify-content-between color-by px-5 py-2">
+      <div className="musing-audio-bar justify-content-between color-by px-5 py-2">
         <div className="musing-one gap-2 d-flex">
           <img src={musimg} alt="pic" />
           <div className=" ">
